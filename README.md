@@ -8,7 +8,7 @@ The goal of this team project is to develop a recommendation algorithm for movie
 We also applied a hybrid approach that builds upon CF to improve its predictability by combining information
 extracted from demographic data (figure below) and content (movie) data.
 
-![Statistics](resources\dataset_stats.png)
+![Statistics](resources/dataset_stats.png)
 
 ### Matrix factorization and SGD
 SGD-based factorization has been a successful method for recommendation algorithms and it was used by the winners
@@ -23,7 +23,7 @@ account when building content-based methods. This resulted in ~ 15% improvement 
 For each algorithm, we performed hyper-parameter tuning to choose the values for certain parameters that minimize the RMSE score.
 The most effective method found was the hybrid **SGD-enhanced-content-CF**.
 
-![Results](resources\results.png)
+![Results](resources/results.png)
 
 
 ### Contributors
